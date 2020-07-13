@@ -1,0 +1,457 @@
+/* ------------- COLORS ------------------
+
+#3F3F3F charcoal
+#515151 grey 2-light
+#7D7D7D grey-3 light
+#B1B1B1 grey 4-light
+#F7F7F7 grey-5 light
+
+#0A6266 ocean
+#6C9D0E lime
+#0C8512 broccoli
+#FDFDF2 ivory
+#890C50 eggplant
+
+*/
+
+
+
+/* ------------- TYPEFACES ------------------ */
+
+h1, h2, h3, h4, h5, h6, p, caption {
+  color: #3F3F3F;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Fjalla One', sans-serif;
+  }
+
+h5, h6, p {
+      font-family: 'Noto Sans', sans-serif;
+    }
+
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+    color: #6F7B6A;
+}
+
+p {
+  font-size: 18px;
+}
+
+.caption {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+footer p{
+  color: white;
+  font-size: 1rem;
+}
+
+/*------------------ NAV-------------------- */
+
+#logo {
+  max-height: 46px;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 2px 4px -1px rgba(89,89,89,0.3);
+  -moz-box-shadow: 0 2px 4px -1px rgba(89,89,89,0.3);
+  box-shadow: 0 2px 4px -1px rgba(89,89,89,0.3);
+}
+
+.navbar-collapse {
+  background-color: white;
+}
+
+.my-nav-link {
+  color: #17201C !important;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: .02rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.my-nav-item {
+  text-align: left !important;
+  padding-left: 1rem;
+}
+
+.my-navbar-nav {
+  padding-top: 1rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: #19231E;
+  border: none;
+  font-size: 1.4rem;
+}
+
+#top-nav {
+  align-items: center;
+  height: 5rem;
+}
+
+/*------------------ BUTTONS-------------------- */
+
+.btn-text {
+  color: #17201C;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+}
+
+.dark-btn {
+  background-color: #19231E;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  font-size: 20px;
+  padding: 0.5rem .9rem;
+  text-decoration: none;
+}
+
+.dark-btn:hover {
+  background-color: #2C3B33;
+  color: white;
+}
+
+#nav-btn {
+  border: 1px #3F3F3F solid;
+  border-radius: 0px;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: .02rem;
+  font-size: 1.1rem;
+  margin-bottom: 7px;
+  margin-left: 2rem;
+  padding: .4rem 1rem;
+  /* font-size: 20px; */
+}
+
+#nav-btn:hover {
+  background-color: #1F3D1E;
+}
+
+#nav-contact {
+  border: 2px #56660E solid;
+  border-radius: 0px;
+  color: #17201C;
+  margin-left: 1rem;
+  padding: 0.33rem .75rem !important;
+}
+
+#nav-contact:hover {
+  background-color: #f2f2f2;
+  border-color: #1F3D1E;
+}
+
+#green-btn {
+  background-color: #336431;
+  color: white;
+  font-size: 20px;
+  padding: 0.33rem .75rem;
+  text-decoration: none;
+}
+
+#green-btn:hover {
+  background-color: #1F3D1E;
+}
+
+.white-btn {
+  background-color: white;
+  border: none;
+  border-radius: 0px;
+  color: #17201C;
+  font-size: 20px;
+  padding: 0.5rem .9rem;
+  text-decoration: none;
+}
+
+.white-btn:hover {
+  background-color: #EDEEED;
+}
+
+#submit-btn {
+  background-color: #336431;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  padding: .7rem 1.7rem;
+  text-decoration: none;
+}
+
+#submit-btn:hover {
+  background-color: #1F3D1E;
+}
+
+/* ------------------REPEATING STRUCTURE */
+
+
+.headline {
+  color: white;
+  letter-spacing: .02rem;
+  line-height: 140%;
+}
+
+.headline-box {
+  background-color: #3F3F3F;
+  display: inline-block;
+  padding: 2rem;
+  width: 100%;
+}
+
+.section-title {
+  align-self: center;
+  margin-left: auto;
+}
+
+
+/* ------------------HERO */
+
+#hero {
+  background-image: url(/images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: unset;
+  min-height: 560px;
+  margin-top: 69px;
+}
+
+#hero-text-container {
+  margin: 5rem 0;
+}
+/* ------------------MESSAGE FROM THE DIRECTOR */
+
+#director {
+  margin: 8rem;
+}
+
+#laura {
+  width: 50%;
+}
+
+
+/* ------------------BY THE NUMBERS */
+
+
+
+
+#by-the-numbers {
+  background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%);
+  padding: 12rem 0;
+}
+
+#counties {
+  background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%);
+  background-image: url(/images/counties.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 725px;
+  width: 100%;
+}
+
+#demographics-container {
+  /* background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%); */
+}
+
+#demographics {
+  padding: 6rem 0;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#dot-ocean {
+  background-color: #0A6266;
+}
+
+#dot-charcoal {
+  background-color: #3F3F3F;
+}
+
+#dot-lime {
+  background-color: #6C9D0E;
+}
+
+#dot-broccoli {
+  background-color: #0C8512;
+}
+
+#dot-eggplant {
+  background-color: #890C50;
+}
+
+#dot-grey {
+  background-color: #B1B1B1;
+}
+
+#epafm-expanded {
+  padding: 9rem 0;
+}
+
+.key {
+  padding-top: 1rem;
+}
+
+#map-title {
+  padding-top: 5rem;
+}
+
+#number-grid1 {
+  padding-bottom: 9rem;
+}
+
+#number-grid2 {
+  padding: 9rem 0;
+}
+
+.pie-box {
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#pie-container {
+  margin: 0 auto;
+  padding: 12rem 0;
+}
+
+#pie-chart-1 {
+  background-image: url(/images/circle-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#pie-chart-2 {
+  background-image: url(/images/circle-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#pie-chart-3 {
+  background-image: url(/images/circle-3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.pie-number {
+  color: #f8f8f8;
+  font-size: 3rem;
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+
+/* ------------------EXPANDING OUR REACH */
+
+.body-text-block {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#compost-hub {
+  padding-top: 8rem;
+}
+
+#expanding-reach {
+  margin-top: 10rem;
+}
+
+#food-waste {
+  margin-top: 12rem;
+}
+
+#ssb {
+  margin-top: 12rem;
+}
+
+
+
+/* ------------------EXPANDING OUR REACH */
+
+
+
+
+#deepening-impacts {
+  background: linear-gradient(333.97deg, rgba(137, 12, 84, 0.05) 5.19%, rgba(10, 98, 102, 0.05) 98.44%);
+  margin-top: 8rem;
+  padding: 10rem 0;
+}
+
+#next-gen {
+  margin-top: 8rem;
+}
+
+
+/*------------------------------------- MEDIA QUERIES-------------------- */
+
+
+/* Responsive for Tablets */
+@media screen and (min-width: 768px) {
+
+  #hero {
+    background-image: url(/images/hero.png);
+    width: 100%;
+  }
+}
+
+
+
+/* Responsive for Desktop */
+@media screen and (min-width: 992px) {
+
+  #hero {
+    background-image: url(/images/hero.png);
+    /* height: 100%;;
+    width: 100%; */
+  }
+
+  .my-nav-link {
+    background-color: inherit;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+  .my-nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .my-sec-heading {
+    font-size: 32px;
+  }
+
+  .my-navbar-nav {
+    padding-top: 0;
+    margin-left: auto;
+  }
+
+  #top-nav {
+    height: 4.5rem;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  #hero {
+    min-height: 800px;
+  }
+}

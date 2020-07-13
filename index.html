@@ -6,7 +6,7 @@
     <title>Farm Fresh Food Relief: An Emergency Food Hub</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;1,400&family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
 
 
     <!-- FAVICON -->
@@ -32,7 +32,7 @@
     <header>
       <nav class="fixed-top nav-fill bg-white navbar navbar-expand-lg navbar-light bg-light" id="top-nav">
         <!-- <a class="navbar-brand d-md-none" href="#"><img class="logo" src="images/logo.png" alt="logo"></a> -->
-        <a class="navbar-brand" href="#"><img class="logo" src="images/logo.svg" alt="Farm Fresh Food Relief: An Emergency food hub logo"></a>
+        <a class="navbar-brand" href="#"><img id="logo" src="images/FA-Logo.png" alt="Fresh Approach logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
@@ -56,15 +56,15 @@
             </li>
           </ul>
           <ul class="navbar-nav d-none d-lg-block">
-              <a href="#contact" class="nav-item"><button type="button" class="btn" id="nav-contact">Download PDF</button></a>
+              <a href="https://give.freshapproach.org/campaign/farm-fresh-food-relief-program/c290393" class="nav-item"><button type="button" class="btn" id="nav-btn">Download PDF</button></a>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <div id="hero">
-        <div id="hero-text-conteiner">
-          <p class="text-center">Fresh Approach Annual Report 2019</p>
+      <div class="card card-image" id="hero">
+        <div class="text-center" id="hero-text-container">
+          <p>Fresh Approach Annual Report 2019</p>
           <h1>Building Healthy Communities,<br>One Carrot at a Time</h1>
         </div>
       </div>
@@ -72,46 +72,264 @@
         <div class="container">
           <div class="row mx-auto">
             <div class="col-md-6 col-sm-12">
-              <img src="images/laura.png">
-              <h3>Laura deTar</h3>
+              <img id="laura" src="images/laura.png">
+              <h3 class="pt-5">Laura deTar</h3>
               <p class="caption">Executive Director, Fresh Approach</p>
             </div>
-            <h3>A Message from Laura</h3>
-            <p>Fresh Approach was initially formed by the Pacific Coast Farmers’ Market Association to offer complimentary food and farming-related educational programs like cooking classes and farm tours.</p>
-            <p>Fast forward to January 2018, and Fresh Approach has gone from an early stage non-profit to a more strategic, data-driven, and values-driven organization with a bright future.</p>
-            <p>Our merger with Collective Roots accelerated our progress towards our existing 2017-2019 Strategic Plan, which emphasized deepening and integrating programs in the communities where we work. </p>
-            <p>Non-profit mergers can be tricky, but the merger proved successful in strengthening the overall organization. Indeed, more dollars now go directly to vital community-based programming, serving a larger population and achieving greater community impacts.</p>
-            <p>This 2018 Annual Report is only a summary of what we accomplished together with community members, partners, farmers, and supporters. We are excited to continue working collaboratively to advance our mission and impacts to increase access to healthy food and address inequities in the Bay Area’s food system.</p>
+            <div class="col-md-6 col-sm-12">
+              <h3 class="pb-5">A Message from Laura</h3>
+              <p>Fresh Approach was initially formed by the Pacific Coast Farmers’ Market Association to offer complimentary food and farming-related educational programs like cooking classes and farm tours.</p>
+              <p>Fast forward to January 2018, and Fresh Approach has gone from an early stage non-profit to a more strategic, data-driven, and values-driven organization with a bright future.</p>
+              <p>Our merger with Collective Roots accelerated our progress towards our existing 2017-2019 Strategic Plan, which emphasized deepening and integrating programs in the communities where we work. </p>
+              <p>Non-profit mergers can be tricky, but the merger proved successful in strengthening the overall organization. Indeed, more dollars now go directly to vital community-based programming, serving a larger population and achieving greater community impacts.</p>
+              <p>This 2018 Annual Report is only a summary of what we accomplished together with community members, partners, farmers, and supporters. We are excited to continue working collaboratively to advance our mission and impacts to increase access to healthy food and address inequities in the Bay Area’s food system.</p>
+            </div>
           </div>
         </div>
       </div>
       <div id="by-the-numbers">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-4 col-sm-6">
               <div class="headline-box">
-                <h2>2019 By the Numbers</h2>
+                <h2 class="headline">2019<br>By the Numbers</h2>
               </div>
-              <h2>Who Benefits from Fresh Approach's Programs?</h2>
+            </div>
+            <div class="col-md-6 col-sm-12 section-title">
+              <h2>Who Benefits from<br>Fresh Approach's Programs?</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="pie-container">
+          <div class="row">
+            <div class="col-md-4 col-xs-12">
+              <!-- <div class="pie-box"> -->
+                <div class="" id="pie-chart-1">
+                  <div>
+                    <h1 class="pie-number">69%</h1>
+                  </div>
+                </div>
+              <!-- </div> -->
+              <h4 class="pt-5">Program Participants Receiving Federal Benefits</h4>
+              <p class="caption pt-3">Including CalFresh (SNAP), WIC (Women, Infants, and Children), SSI (Supplemental Security Income), SSDI (Social Security Disability Income), or Medi-Cal/Medicaid</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <div class="" id="pie-chart-2">
+                <h1 class="pie-number text-center">49%</h1>
+              </div>
+              <h4 class="pt-5">Program Participants with Diet-Related Chronic Illness</h4>
+              <p class="caption pt-3">Including diabetes or pre-diabetes, high blood pressure, or high cholesterol</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <div class="" id="pie-chart-3">
+                <h1 class="pie-number text-center">12%</h1>
+              </div>
+              <h4 class="pt-5">Program Participants who are Extremely Food Insecure</h4>
+              <p class="caption pt-3">Often receive groceries from a food bank or other charity, and/or often worry about running out of food before getting the funds to purchase more</p>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="epafm-expanded">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12">
+              <img class="w-100" src="/images/epafm-expanded.png" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="w-50 ml-auto">
+                <h2>21,115</h2>
+                <p class="pt-3">People with expanded access to fresh fruits and vegetables by household size</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="container">
+          <div class="row" id="number-grid1">
+            <div class="col-md-3 col-sm-6">
+              <div>
+                <h1 class="text-center">457</h1>
+                <p>People who learned to cook healthy, fresh produce on a budget in our VeggieRx Cooking & Nutrition classes</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div>
+                <h1 class="text-center">95</h1>
+                <p>People who learned how to grow, plant, and harvest their own food at the Collective Roots Community Garden</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div>
+                <h1 class="text-center">$35,320</h1>
+                <p>Total in vouchers for free farmers’ market produce distributed to class participants</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div>
+                <h1 class="text-center">97%</h1>
+                <p>Percent who reported feeling more comfortable cooking fresh fruits and vegetables at home after VeggieRx</p>
+              </div>
+            </div>
+          </div>
+          <img class="w-75 d-block m-auto" id="mfm-richmond" src="/images/mfm-richmond.png" alt="">
+          <div class="container">
+            <div class="row" id="number-grid2">
+              <div class="col-md-3 col-sm-6">
+                <div>
+                  <h1 class="text-center">$35,683</h1>
+                  <p>in produce distributed at Mobile Farmers’ Market stops, a 31% increase over the previous year</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div>
+                  <h1 class="text-center">73%</h1>
+                  <p>percent of sales to low income customers (those making less than 200% the federal poverty line)</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div>
+                  <h1 class="text-center">$112,268</h1>
+                  <p>in produce purchased from small, local farms</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div>
+                  <h1 class="text-center">$11,000+</h1>
+                  <p>in produce donated to local food pantries, with less than 1% going to waste</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="counties">
+        <div class="container">
+          <h2 id="map-title">Where We Work<h2>
+        </div>
+      </div>
+      <div id="demographics-container">
+        <div class="container">
+          <div id="demographics">
+            <h2>Participant Demographics</h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-s-12 m-auto">
+                  <img class="w-100" src="/images/demographics.png" alt="">
+                </div>
+                <div class="col-md-6 col-s-12 m-auto">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col text-right">
+                        <span class="dot" id="dot-ocean"></span>
+                      </div>
+                      <div class="col-10">
+                        <p class="caption "><strong>12.7%</strong> Asian (Vietnamese, Philipino, Other)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-right">
+                        <span class="dot" id="dot-charcoal"></span>
+                      </div>
+                      <div class="col-10">
+                        <p class="caption">3.5% American Indian / Indigenous</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-right">
+                        <span class="dot" id="dot-eggplant"></span>
+                      </div>
+                      <div class="col-10">
+                        <p class="caption">13.9% Black / African American</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-right">
+                        <span class="dot" id="dot-broccoli"></span>
+                      </div>
+                      <div class="col-10">
+                        <p class="caption">52% Latinx / Hispanic</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-right">
+                        <span class="dot" id="dot-lime"></span>
+                      </div>
+                      <div class="col-10">
+                        <p class="caption">17.3% White</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-right">
+                        <span class="dot" id="dot-grey"></span>
+                      </div>
+                      <div class="col-10">
+                        <p class="caption">< 1% Other / Decline to State</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="expanding-reach">
+        <div class="container">
           <div class="row">
-            <div class="col-md-4 col-xs-12 text-center">
-              <img class="pie-chart" src="/images/circle-1.png" alt="">
-              <h4>Program Participants Receiving Federal Benefits</h4>
-              <p class="caption">Including CalFresh (SNAP), WIC (Women, Infants, and Children), SSI (Supplemental Security Income), SSDI (Social Security Disability Income), or Medi-Cal/Medicaid</p>
+            <div class="col-md-4 col-sm-6">
+              <div class="headline-box">
+                <h2 class="headline">Expanding<br>Our Reach</h2>
+              </div>
             </div>
-            <div class="col-md-4 col-xs-12 text-center">
-              <img class="pie-chart" src="/images/circle-2.png" alt="">
-              <h4>Program Participants with Diet-Related Chronic Illness</h4>
-              <p class="caption">Including diabetes or pre-diabetes, high blood pressure, or high cholesterol</p>
+          </div>
+        </div>
+        <div class="container" id="compost-hub">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img class="w-100" src="images/compost.png">
+              <p class="caption text-center pt-3 w-75 m-auto">In 2019, 1.5 tons of food waste diverted from local landfills via our Community Compost Hub</p>
             </div>
-            <div class="col-md-4 col-xs-12 text-center">
-              <img class="pie-chart" src="/images/circle-3.png" alt="">
-              <h4>Program Participants who are Extremely Food Insecure</h4>
-              <p class="caption">Often receive groceries from a food bank or other charity, and/or often worry about running out of food before getting the funds to purchase more</p>
+            <div class="col-md-6 col-sm-12 m-auto">
+              <div class="body-text-block">
+                <h2>Community Compost Hub</h2>
+                <h4 class="pt-2">Closing the Loop on Food Waste in San Mateo County</h4>
+                <p class="pt-3">The Compost Hub is a community compost network, providing food scrap collection at our weekly farmers market located in East Palo Alto.</p>
+                <p class="pt-3">The collected food waste is composted at our Collective Roots Community Garden, becoming nutrient-rich soil for community vegetable plots and the home gardens of local residents.</p>
+                <p class="pt-3">With funding from the San Mateo County Office of Sustainability, the Compost Hub has given locals without curbside compost pickup the ability to divert their kitchen waste from local landfills.<p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="food-waste">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="body-text-block">
+                <h2>Waste Not, Want Not</h2>
+                <h4 class="pt-2">Helping Low-Income Communities Take Action Against Climate Change</h4>
+                <p class="pt-3">Food waste is a major climate issue. By reducing the amount of food that gets thrown away, we can reduce carbon emillions and save the energy requred to produce, transport, and cook the food.</p>
+                <p class="pt-3">Since summer 2019, we've been working to grow awareness of the food waste problem by leading free Food Waste Prevention workshops for low-income residents of San Mateo County.</p>
+                <p class="pt-3">Here, participants learn how to reduce their in-home food waste and save money by making the most of the food they purchase by preserving foods, making food last longer, and knowing how to tell when foods are really ready to be thrown out.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img class="w-100" src="images/waste-prevention.png">
+              <p class="caption text-center pt-3">Community workshops like this food preservation class were sponsored by the San Mateo County Office of Sustainability and developed in collaboration with Leah's Pantry</p>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="ssb">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 align-self-center">
+              <img class="w-100" src="images/ssb.png">
+              <p class="caption text-center pt-3">Proceeds from the City of Oakland's Sugar Sweetened Beverage Tax helped fund a nutrition class series focused on cutting back on sugar.</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="body-text-block">
+                <h2>A Sweet Take on Nutrition Workshops</h2>
+                <h4 class="pt-2">New Class Curriculum Developed to Help Families Cut Back on Sugar-Sweetened Drinks</h4>
+                <p class="pt-3">In 2019, we developed a new VeggieRx class series with a focus on helping families step away from sugar sweetened beverages.</p>
+                <p class="pt-3">Three rounds of four classes have been taught in East Oakland since August 2019, each including a class session inside a grocery store – strengthening the participants' ability to spot healthy food and beverage choices in places they frequently shop.</p>
+                <p class="pt-3">Classes were taught at the 81st Ave Library in East Oakland, and included vouchers for free, locally grown fruits and vegetables. Our Mobile Farmers' Market visited the spot right after class, giving participants an easy shopping option when veggies were fresh on their minds.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -119,24 +337,26 @@
       <div id="deepening-impacts">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-4 col-sm-6">
               <div class="headline-box">
-                <h2>Deepening Our Impacts</h2>
+                <h2 class="headline">Deepening<br>Our Impacts</h2>
               </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row mx-auto">
-            <div class="col-md-6 col-sm-12">
-              <img class="" src="images/vrx-kale.png">
-              <p class="caption text-center">New "Train the Trainer" Program Brings VeggieRx Cooking & Nutrition Classes to Bay Area health centers</p>
+        <div class="container" id="next-gen">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 align-self-center">
+              <img class="w-100" src="images/vrx-train.png">
+              <p class="caption text-center pt-3">New "Train the Trainer" Program Brings VeggieRx Cooking & Nutrition Classes to Bay Area health centers</p>
             </div>
             <div class="col-md-6 col-sm-12">
-              <h2>Training the Next Generation of Nutrition Educators</h2>
-              <p>Fresh Approach has completed a standardized nutrition curriculum that is now being taught to Americorps members and volunteers at Lifelong Medical Centers in Berkeley.</p>
-              <p>With this new curriculum, multiple Lifelong campuses will begin offering free nutrition and cooking classes to community members starting in February.</p>
-              <p>The first classes will be taught at the West Berkeley Lifelong campus, and have been developed for parents with small children.</p>
+              <div class="body-text-block">
+                <h2>Training the Next Generation of Nutrition Educators</h2>
+                <p class="pt-3">Fresh Approach has completed a standardized nutrition curriculum that is now being taught to Americorps members and volunteers at Lifelong Medical Centers in Berkeley.</p>
+                <p class="pt-3">With this new curriculum, multiple Lifelong campuses will begin offering free nutrition and cooking classes to community members starting in February.</p>
+                <p class="pt-3">The first classes will be taught at the West Berkeley Lifelong campus, and have been developed for parents with small children.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -148,7 +368,7 @@
               <p>These 6 — 8 week volunteer positions for community members include a stipend, and ask participants to create a unique project to support healthy food access in their community.</p>
             </div>
             <div class="col-md-6 col-sm-12">
-              <img class="" src="images/mfm-towanna.png">
+              <img class="" src="images/towanna.png">
             </div>
           </div>
         </div>
@@ -163,7 +383,7 @@
         <div class="container">
           <div class="row mx-auto">
             <div class="col-md-6 col-sm-12">
-              <img class="" src="images/cr-volunteers.png">
+              <img class="" src="images/volunteers.png">
               <h1 class="text-center">1710</h1>
               <p class="caption text-center">Volunteer hours worked in 2019</p>
             </div>
@@ -189,7 +409,7 @@
         <div class="container">
           <div class="row mx-auto">
             <div class="col-md-6 col-sm-12">
-              <img class="" src="images/cr-youth.png">
+              <img class="" src="images/youth.png">
             </div>
             <div class="col-md-6 col-sm-12">
               <h1 class="extra-large">#1</h1>
@@ -207,6 +427,7 @@
             <div class="col-md-6 col-sm-12">
               <h1 class="extra-large">#2</h1>
               <h2>Grow Community Engagement</h2>
+              <img class="" src="images/crcg-class.png">
             </div>
             <div class="col-md-6 col-sm-12">
               <ul>
@@ -220,7 +441,7 @@
         <div class="container">
           <div class="row mx-auto">
             <div class="col-md-6 col-sm-12">
-              <img class="" src="images/cr-youth.png">
+              <img class="" src="images/maria.png">
             </div>
             <div class="col-md-6 col-sm-12">
               <h1 class="extra-large">#3</h1>
@@ -242,13 +463,162 @@
               </div>
               <h2>We're Thankful for Our Committed Partners Who Help Expand Our Impact</h2>
             </div>
+            <div class="col-md-3 col-sm-6">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+              <img class="partner-logo" src="images/kaiser-logo.png">
+            </div>
           </div>
         </div>
       </div>
-
-
-
-
+      <div id="our-board">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="headline-box">
+                <h2>Our Board</h2>
+              </div>
+            </div>
+            <!-- <img id="board-photo" src="images/board-of-directors" alt="group of older white people standing outside"> -->
+            <div class="col-md-3 col-sm-6">
+              <div class="name-container">
+                <p class="first-name">Patrick Fabian</p>
+                <p>Board President,</p>
+                <p class="title">Law Offices of Patrick Fabian</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Christina Stork</p>
+                <p>Vice Chair,</p>
+                <p class="title">Sunbasket</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Janet Venturino</p>
+                <p>Secretary,</p>
+                <p class="title">Kaiser Permanente</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Steve Fernandes</p>
+                <p>Treasurer,</p>
+                <p class="title">Sunrise Nursery</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="name-container">
+                <p class="first-name">Allen Moy</p>
+                <p>Board Member,</p>
+                <p class="title">Pacific Coast Farmers’ Market Association</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Sahar Shirazi</p>
+                <p>Board Member,</p>
+                <p class="title">WSP USA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="our-staff">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="headline-box">
+                <h2>Our Board</h2>
+              </div>
+            </div>
+            <!-- <img id="board-photo" src="images/board-of-directors" alt="group of young people standing outside"> -->
+            <div class="col-md-3 col-sm-6">
+              <div class="name-container">
+                <p class="first-name">Laura deTar</p>
+                <p class="title">Executive Director</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Najiha Al-Asmar</p>
+                <p class="title">Program Specialist</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Betsy Rosales Avalos</p>
+                <p class="title">Program Specialist</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Shelby Bustria</p>
+                <p class="title">Volunteer Program Specialist (Public Ally)</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="name-container">
+                <p class="first-name">Lizette Calderon</p>
+                <p class="title">Program Coordinator</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Raffaella Cerruti</p>
+                <p class="title">Development Manager</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Stephanie Flores</p>
+                <p class="title">Program Specialist</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Samiha Hamdi</p>
+                <p class="title">Program Coordinator</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="name-container">
+                <p class="first-name">Danielle Hamilton</p>
+                <p class="title">Education Program Manager</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Andie Kolbeck</p>
+                <p class="title">Marketing & Communications Manager</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Isabel Medina</p>
+                <p class="title">Program Specialist</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Ellen Olack</p>
+                <p class="title">Food Access & Marketing Specialist</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="name-container">
+                <p class="first-name">Andy Ollove</p>
+                <p class="title">Food Access Program Manager</p>
+              </div>
+              <div class="name-container">
+                <p class="first-name">Christopher St. Pierre</p>
+                <p class="title">Finance & Admin Specialist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="donate">
+        <div id="donate-container">
+          <h2>Help us make fresh produce affordable and accessible for everyone.</h2>
+          <p>Your donation gives thousands of families the resources and skills to bring healthy, local fruits and vegetables into their kitchens.</p>
+          <a href="https://www.give.freshapproach.org" class=""><button type="button" class="btn" id="">Give Today</button></a>
+        </div>
+      </div>
     </main>
     <footer>
     </footer>
