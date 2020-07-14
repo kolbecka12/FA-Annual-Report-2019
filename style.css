@@ -55,6 +55,20 @@ footer p{
   font-size: 1rem;
 }
 
+.light-text {
+  color: #f2f2f2;
+}
+
+.q {
+  quotes: "“" "”" "‘" "’";
+}
+.q::before {
+    content: open-quote;
+}
+.q::after {
+    content: close-quote;
+}
+
 /*------------------ NAV-------------------- */
 
 #logo {
@@ -385,19 +399,41 @@ footer p{
 
 
 
-/* ------------------EXPANDING OUR REACH */
+/* ------------------DEEPENING OUR IMPACTS */
 
 
+#ambassador-quote {
+  line-height: 135%;
+}
 
+#ambassador {
+  margin-top: 8rem;
+}
 
 #deepening-impacts {
   background: linear-gradient(333.97deg, rgba(137, 12, 84, 0.05) 5.19%, rgba(10, 98, 102, 0.05) 98.44%);
   margin-top: 8rem;
-  padding: 10rem 0;
+  padding: 10rem 0 5rem 0;
+}
+
+#expanding-volunteers {
+  background: linear-gradient(333.97deg, rgba(137, 12, 84, 0.05) 5.19%, rgba(10, 98, 102, 0.05) 98.44%);
+  padding: 8rem 0;
 }
 
 #next-gen {
   margin-top: 8rem;
+}
+
+#quote {
+  background: #4F4F4F;
+  padding: 5rem 0;
+}
+
+#towanna {
+  position: absolute;
+  top: 200px;
+  z-index: 1;
 }
 
 
