@@ -59,6 +59,14 @@ footer p{
   color: #f2f2f2;
 }
 
+li {
+  padding-bottom: 1.5rem;
+}
+
+ul {
+  padding: 3rem 0 0 0;
+}
+
 .q {
   quotes: "“" "”" "‘" "’";
 }
@@ -122,18 +130,24 @@ footer p{
 }
 
 .dark-btn {
-  background-color: #19231E;
+  background-color: #515151;
   border: none;
   border-radius: 0px;
   color: white;
-  font-size: 20px;
-  padding: 0.5rem .9rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
   text-decoration: none;
 }
 
 .dark-btn:hover {
-  background-color: #2C3B33;
+  background-color: #3F3F3F;
   color: white;
+  text-decoration: none;
+}
+
+#donate-btn-container {
+  margin: 3rem 0 8rem 0;
 }
 
 #nav-btn {
@@ -258,16 +272,20 @@ footer p{
 
 
 #by-the-numbers {
-  background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%);
-  padding: 12rem 0;
+  background: linear-gradient(181.33deg, rgba(137, 12, 84, 0.05) 1.17%, rgba(12, 133, 18, 0) 72.37%);
+  padding-top: 12rem;
 }
 
 #counties {
+
+}
+
+.map {
   background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%);
   background-image: url(/images/counties.png);
-  background-size: contain;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 725px;
+  display: block;
   width: 100%;
 }
 
@@ -311,7 +329,7 @@ footer p{
 }
 
 #epafm-expanded {
-  padding: 9rem 0;
+  padding: 13rem 0 9rem 0;
 }
 
 .key {
@@ -319,7 +337,10 @@ footer p{
 }
 
 #map-title {
-  padding-top: 5rem;
+  padding: 0;
+  margin: 0;
+  transform: translateY(250%);
+  z-index: 1;
 }
 
 #number-grid1 {
@@ -365,12 +386,21 @@ footer p{
   width: 100%;
 }
 
+#pie-row {
+  width: 85% !important;
+}
+
 .pie-number {
   color: #f8f8f8;
   font-size: 3rem;
   position: absolute;
   top: 70%;
+  right: 50%;
   transform: translateY(-50%);
+}
+
+#insecure {
+  color: #3F3F3F;
 }
 
 
@@ -386,7 +416,7 @@ footer p{
 }
 
 #expanding-reach {
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 
 #food-waste {
@@ -435,6 +465,97 @@ footer p{
   top: 200px;
   z-index: 1;
 }
+
+/* ------------------OUR VISION FOR 2020 AND BEYOND */
+
+.extra-large {
+  font-size: 4rem;
+}
+
+#vision-for-2020 {
+  padding-top: 10rem;
+}
+
+#vision-1 {
+  padding: 8rem 0 10rem 0;
+}
+
+#vision-2 {
+  padding-bottom: 8rem;
+}
+
+#vision-3 {
+  padding-bottom: 8rem;
+}
+
+/* ------------------OUR PARTNERS */
+
+#logo-grid {
+  padding: 5rem 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#partners {
+  background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%);
+  margin-top: 4rem;
+  padding: 8rem 0;
+}
+
+.partner-logo {
+  padding: 1rem;
+}
+
+
+/* ------------------OUR STAFF + BOARD */
+
+#our-board {
+  padding: 8rem 0;
+}
+
+#our-staff {
+  background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.1) 0.08%, rgba(12, 133, 18, 0.1) 93.01%);
+  padding: 8rem 0;
+}
+
+.staff-grid {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.first-name {
+  font-weight: 700;
+  padding-bottom: .2rem;
+}
+
+.name-container {
+  padding: 3rem 0;
+}
+
+.title {
+  font-size: 1rem;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+
+/* ------------------DONATE BLOCK */
+
+#donate-container {
+  background: #0A6266;
+  padding-bottom: 2rem;
+}
+
+#donate-title {
+  padding: 8rem 0 4rem 0;
+}
+
+/* ------------------ FOOTER */
+footer {
+  background-color: #3F3F3F;
+  padding: 2rem 0;
+}
+
 
 
 /*------------------------------------- MEDIA QUERIES-------------------- */
