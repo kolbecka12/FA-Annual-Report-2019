@@ -490,13 +490,13 @@ ul {
 /* ------------------OUR PARTNERS */
 
 #logo-grid {
-  padding: 5rem 0;
+  padding-top: 6rem;
   width: 90%;
   margin: 0 auto;
 }
 
 #partners {
-  background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%);
+  /* background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%); */
   margin-top: 4rem;
   padding-top: 8rem;
 }
