@@ -43,6 +43,10 @@ p {
   font-size: 18px;
 }
 
+.blue {
+  color: #0A6266;
+}
+
 .caption {
   font-family: 'Noto Sans', sans-serif;
   font-size: 14pt;
@@ -60,10 +64,6 @@ footer p{
 
 li {
   padding-bottom: 1.5rem;
-}
-
-ul {
-  padding: 3rem 0 0 0;
 }
 
 .q {
@@ -247,14 +247,14 @@ ul {
 
 
 .headline {
-  color: black;
+  color: white;
   letter-spacing: .02rem;
   line-height: 140%;
   text-align: center;
 }
 
 .headline-box {
-  background-color: #B1B1B1;
+  background-color: #3F3F3F;
   display: inline-block;
   padding: 1rem 0 .5rem 0;
   width: 90%;
@@ -357,7 +357,7 @@ ul {
   background-color: #B1B1B1;
 }
 
-#epafm-expanded {
+.numbers-expanded {
   padding: 4rem 0;
 }
 
@@ -385,6 +385,7 @@ ul {
 }
 
 #mfm-richmond {
+  padding: 2rem 0 5rem 0;
   width: 100%;
 }
 
@@ -414,6 +415,12 @@ ul {
   color: #3F3F3F;
 }
 
+#vrxsm-photo {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+
 
 /* ------------------EXPANDING OUR REACH */
 
@@ -439,7 +446,7 @@ ul {
 }
 
 #food-waste {
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 #ssb {
@@ -456,7 +463,7 @@ ul {
 }
 
 #ambassador {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 #deepening-impacts {
@@ -467,7 +474,7 @@ ul {
 
 #expanding-volunteers {
   background: linear-gradient(333.97deg, rgba(137, 12, 84, 0.05) 5.19%, rgba(10, 98, 102, 0.05) 98.44%);
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #next-gen {
@@ -489,6 +496,10 @@ ul {
   z-index: 1;
 }
 
+#volunteer-text {
+  padding-top: 4rem;
+}
+
 #vrx-train {
   padding-bottom: 4rem;
 }
@@ -499,22 +510,43 @@ ul {
 
 .extra-large {
   font-size: 4rem;
+  text-align: center;
+}
+
+#maria {
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.vision-item {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.vision-title {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 #vision-for-2020 {
-  padding-top: 10rem;
+  padding-top: 4rem;
 }
 
 #vision-1 {
-  padding: 8rem 0 10rem 0;
+  padding: 4rem 0;
 }
 
 #vision-2 {
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
 }
 
 #vision-3 {
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
+}
+
+#youth {
+  padding-bottom: 3rem;
 }
 
 /* ------------------OUR PARTNERS */
@@ -526,13 +558,13 @@ ul {
 }
 
 #partners {
-  /* background: linear-gradient(268.65deg, rgba(137, 12, 84, 0.05) 0.08%, rgba(12, 133, 18, 0.03) 93.01%); */
   margin-top: 4rem;
-  padding-top: 8rem;
+  /* padding-top: 8rem; */
 }
 
 .partner-logo {
   padding: 1rem;
+  width: 100%;
 }
 
 
@@ -550,6 +582,10 @@ ul {
 .staff-grid {
   width: 85%;
   margin: 0 auto;
+}
+
+#staff-photo {
+  width: 100%;
 }
 
 .first-name {
@@ -610,6 +646,15 @@ footer {
 
 /* Responsive for Desktop */
 @media screen and (min-width: 992px) {
+
+  ul {
+    padding: 3rem 0 0 0;
+  }
+
+  .section-title {
+    padding-top: 2rem;
+    text-align: left;
+  }
 
   /* ------------------NAV */
 
@@ -673,6 +718,7 @@ footer {
     color: white;
     letter-spacing: .02rem;
     line-height: 140%;
+    text-align: left;
   }
 
   .headline-box {
@@ -701,8 +747,12 @@ footer {
     padding-top: 0;
   }
 
-  #epafm-expanded {
-    padding: 13rem 0 9rem 0;
+  .numbers-expanded {
+    padding: 10rem 0 9rem 0;
+  }
+
+  .numbers-expanded2 {
+    padding: 0 0 9rem 0;
   }
 
   #epafm-photo {
@@ -715,6 +765,7 @@ footer {
 
   #mfm-richmond {
     width: 75%;
+    padding: 0;
   }
 
   #number-grid1 {
@@ -750,6 +801,10 @@ footer {
     padding: 10rem 0 5rem 0;
   }
 
+  #ambassador {
+    margin-top: 8rem;
+  }
+
   #next-gen {
     margin-top: 8rem;
   }
@@ -758,6 +813,69 @@ footer {
     padding-bottom: 0;
   }
 
+  #volunteer-text {
+    padding-top: 0;
+  }
+
+  #expanding-volunteers {
+    padding: 8rem 0;
+  }
+
+  .extra-large {
+    text-align: left;
+  }
+
+  #maria {
+    padding-bottom: 0;
+    width: 75%;
+  }
+
+  #vrxsm-photo {
+    padding: 0;
+  }
+
+  .vision-item {
+    margin: inherit;
+    width: inherit;
+  }
+
+  .vision-title {
+    text-align: left;
+    width: 75%;
+  }
+
+  #vision-1 {
+    padding: 8rem 0 10rem 0;
+  }
+
+  #vision-2 {
+    padding-bottom: 8rem;
+  }
+
+  #vision-3 {
+    padding-bottom: 8rem;
+  }
+
+  #vision-for-2020 {
+    padding-top: 10rem;
+  }
+
+  #youth {
+    padding-bottom: 0;
+  }
+
+  #partners {
+    margin-top: 4rem;
+    padding-top: 8rem;
+  }
+
+  .partner-logo {
+    width: 100%;
+  }
+
+  #staff-photo {
+    width: 75%;
+  }
 }
 
 @media screen and (min-width: 1400px) {
